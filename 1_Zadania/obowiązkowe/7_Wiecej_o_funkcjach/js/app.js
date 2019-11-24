@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//Zadeklarowanie funkcji jeden
 function jeden() {
 
-    //Twoj komentarz ...
+    //Zadeklarowanie zmiennej zmienna1 w scope funkcji jeden
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //Zadeklarowanie funkcji dwa
     function dwa() {
 
-        //Twoj komentarz ...
+        //Funkcja dwa ma dostęp do zmiennej 1, bo jest w scope funkcji 1
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //Zadeklarowanie zmiennej zmienna2 w scope funkcji dwa
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //Wywołanie funkcji dwa
     dwa();
 
-    //Twoj komentarz ...
+    //Funkcja jeden nie ma dostępu do zmiennej zmienna2, bo ta jest zadeklarowana w scope funkcji dwa
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//Wywołanie funkcji jeden
 jeden()

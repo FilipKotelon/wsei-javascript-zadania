@@ -5,10 +5,10 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+//Deklaracja funkcji sortArray
 function sortArray() {
 
-    //Twoj komentarz ...
+    //Deklaracja tabeli points
     var points = [41, 3, 6, 1, 114, 54, 64];
 
     //Twoj komentarz ...
@@ -21,5 +21,5 @@ function sortArray() {
     return points;
 }
 
-//Twoj komentarz ...
+//Wywołanie funkcji
 sortArray();
