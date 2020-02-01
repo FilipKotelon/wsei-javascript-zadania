@@ -26,3 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 })
+
+//Mogę zmienić funkcję innerFuncOne na arrow function
+//lub wywołać tą funkcję w ten sposób: innerFuncOne.bind(this)()

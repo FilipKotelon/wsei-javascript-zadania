@@ -71,4 +71,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     console.log(getTags(childElements));
+
+    //Zadanie 5
+    const getClassInfo = (element) => {
+        return [... element.classList];
+    }
+
+    console.log(getClassInfo(banner));
+
+    //Zadanie 6
+    const allNavLi = document.querySelectorAll('nav li');
+    const setDataDirection = (elements) => {
+        for(let i = 0; i < elements.length; i++){
+            if(!elements[i].dataset.direction){
+                elements[i].dataset.direction = 'top';
+            }
+        }
+    }
+
+    setDataDirection(allNavLi);
 });
